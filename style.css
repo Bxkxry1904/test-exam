@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif;
+
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgba(7, 149, 244, 0.795);
+}
+nav h1 {
+    color:rgba(7, 149, 244, 0.795);
+    font-family: 'Playfair Display' , sans-serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 400px;
+}
+nav .onglets a {
+    text-decoration: none;
+    color:rgba(7, 149, 244, 0.795);
+    margin-right: 10px;
+    border-bottom: 1px solid rgba(7, 149, 244, 0.795);
+    padding-bottom: 5px ;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url('/image/background-hedear.jpeg') ;
+    background-size: cover;
+    padding: 40px;
+}
+header h1{
+    font-family: 'Playfair Display' , sans-serif;
+    font-size: 50px;
+}
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom:1px solid  ;
+}
+header button{
+    padding: 10px 20px;
+    background-color:rgba(7, 149, 244, 0.795);
+    color: #000;
+    border: none;
+    font-size: 20px;
+    font-family: 'Playfair Display' , sans-serif;
+    cursor: pointer;
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.main .content .row .left{
+    flex: 0 0 30%;
+    
+    background-color:rgba(7, 149, 244, 0.795);
+    color:white;
+
+}
+.main .content .row.right{
+    flex: 0 0 70%;
+    padding:40px;
+}
+.main .content .row .right{
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    padding: 0%;
+}
+footer{
+    margin-top: 40px;
+    border-top: 5px solid rgba(7, 149, 244, 0.795);
+    background-color: rgba(7, 149, 244, 0.795);
+    padding: 30px 100px;
+}
+footer h1{
+    font-family: 'Playfair Display' , sans-serif;
+    border-bottom:1px solid black;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+@media screen and (max-width:680px) {
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+}
